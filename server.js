@@ -21,7 +21,7 @@ app.use(require("./routes/api.js"));
 
 mongoose.connect(MONGODB_URI, {
   useNewUrlParser: true,
-  // useFindAndModify: false,
+  useFindAndModify: false,
   useUnifiedTopology: true 
 });
 
